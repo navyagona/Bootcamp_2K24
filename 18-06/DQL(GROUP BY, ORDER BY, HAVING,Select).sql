@@ -1,4 +1,3 @@
-```sql
 -- Create database
 CREATE DATABASE IF NOT EXISTS students_db;
 USE students_db;
@@ -296,4 +295,3 @@ SELECT s.sid, s.sname, (
     WHERE e.sid = s.sid
 ) AS total_grade_points
 FROM students s;
-```
